@@ -17,9 +17,14 @@
     margin: 0 auto;
 }
 
+.row {
+    margin: 0 -15px;
+}
+
 img {
     width: 100%;
 }
+
 
 .logo {
     width: 160px;
@@ -179,12 +184,18 @@ a {
     padding: 260px 0 120px 0;
 }
 
+.second-container {
+    max-width: 1920px;
+    width: 100%;
+    background: url(../image/Rectangle\ 2\ \(3\).png) center/cover no-repeat;
+}
+
 .more-information {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: -275px;
+    padding: 120px 0;
 }
 
 .more-information p {
