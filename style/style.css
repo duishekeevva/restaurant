@@ -59,7 +59,7 @@ a {
 
 .inner-box {
     position: absolute;
-    bottom: -160px;
+    bottom: -162px;
     left: 0;
     right: 0;
     transition: 0.6s;
@@ -107,6 +107,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 120px;
 }
 
 .desc svg {
@@ -171,15 +172,11 @@ a {
 }
 
 .second-container {
-
     width: 100%;
-    position: relative;
 }
 
-
-
 .offer-section {
-    padding: 120px 0 120px 0;
+    padding: 260px 0 120px 0;
 }
 
 .more-information {
@@ -187,9 +184,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    bottom: 135px;
-    left: 650px;
+    margin-top: -275px;
 }
 
 .more-information p {
@@ -208,25 +203,39 @@ a {
 .plan {
     padding: 20px 50px;
     background-color: #FFF;
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.plan:hover {
+    background-color: rgba(209, 169, 84, 0.90);
 }
 
 .presentation {
     padding: 20px 46px;
     background-color: #FFF;
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.presentation:hover {
+    background-color: rgba(209, 169, 84, 0.90);
 }
 
 
 .message {
-    border:  0.5px solid #D0D0D0;
+    border: 0.5px solid #D0D0D0;
 }
 
 .send-button button {
     padding: 12px 36px;
-    background-color:rgba(209, 169, 84, 0.90) ;
+    background-color: rgba(209, 169, 84, 0.90);
 }
 
 .send-button button:hover {
-background-color:transparent ;
+    background-color: transparent;
 }
 
 
@@ -287,12 +296,13 @@ input {
 .about-section {
     padding-bottom: 600px;
 }
+
 .advantage-section {
-    background-color:#F9F7F7 ;
+    background-color: #F9F7F7;
 }
+
 .advantage-info {
     margin-top: -895px;
     padding-top: 355px;
     padding-bottom: 90px;
 }
-
